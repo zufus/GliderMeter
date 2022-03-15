@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GliderMeter</string>
+
+    <string name="_0x53">0</string>
+    <string name="connect">Connetti</string>
+
+    <string name="btCalibrateXY">Calibrazione XY</string>
+    <string name="btCalibrateZ">Calibrazione Z</string>
+    <string name="textviewDihedral">Diedro Longitudinale</string>
+    <string name="dihedralValue">0</string>
+    <string name="textMessageTitleSensor">Sensore</string>
+
+
+    !-- Preference Titles -->
+    <string name="sensors_header">Dispositivi BT</string>
+    <string name="theme_header">Tema</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Firma</string>
+    <string name="wing_device_title">Sensore Ala</string>
+    <string name="elevator_device_title">Sensore Elevatore</string>
+
+    <string name="version">Versione</string>
+    <string name="title_activity_settings">Preferenze</string>
+    <string name="action_settings">Preferenze</string>
+
+    <!-- Sync Preferences -->
+    <string name="theme_title">Tema Ramingo</string>
+    <string name="average_title">Medie</string>
+    <string name="average_summary_on">Abilita Media</string>
+
+    <string name="average_summary_off">Abilitando le medie è possibile migliorare la stabilità</string>
+    <string name="bt_config_header">Configurazione dei sensori</string>
+    <string name="sensor_summary">Sensori Associati al telefono</string>
+    <string name="sensor_summary_not_set">Non ci sono sensori associati al telefono.</string>
+    <string name="refresh_rate">Frequenza di Lettura</string>
+    <string name="return_rate_summary">Frequenza di lettura del sensore</string>
+    <string name="bandwidth">Banda</string>
+    <string name="bandwidth_summary">Banda del filtro</string>
+    <string name="snackPleaseEnableBT">BT non attivo. L\'app non può funzionare.</string>
+    <string name="onErrorWritingMsgCal">Errore: calibrazione non riuscita</string>
+    <string name="onErrorNotConnected">Non ci sono sensori connessi. Impossibile eseguire la calibrazione</string>
+
+
+</resources>

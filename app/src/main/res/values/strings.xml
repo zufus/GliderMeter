@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">GliderMeter</string>
+
+    <string name="_0x53">0</string>
+    <string name="connect">Connect</string>
+   
+    <string name="btCalibrateXY">Calibrate XY</string>
+    <string name="btCalibrateZ">Calibrate Z</string>
+    <string name="textviewDihedral">Longitudinal Dihedral</string>
+    <string name="dihedralValue">0</string>
+    <string name="textMessageTitleSensor">Sensor</string>
+    <string name="snackPleaseEnableBT">Without BT this app cannot work</string>
+
+
+    !-- Preference Titles -->
+    <string name="sensors_header">BT Sensors</string>
+    <string name="theme_header">Theme</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="wing_device_title">Wing Sensor</string>
+    <string name="elevator_device_title">Elevator Sensor</string>
+
+    <string name="version">Version</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Sync Preferences -->
+    <string name="theme_title">Use Ramingo Theme</string>
+    <string name="average_title">Averages</string>
+    <string name="average_summary_on">Enable reading averages</string>
+
+    <string name="average_summary_off">Enabling averages can improve measurement stability</string>
+    <string name="bt_config_header">Sensor configuration</string>
+    <string name="sensor_summary">Associate Paired BT sensors</string>
+    <string name="sensor_summary_not_set">No paired BT devices found. </string>
+    <string name="refresh_rate">Refresh Rate</string>
+    <string name="return_rate_summary">Data retrival rate from the sensor</string>
+    <string name="bandwidth">Bandwidth</string>
+    <string name="bandwidth_summary">Set filter bandwidth</string>
+    <string name="onErrorWritingMsgCal">Error while sending calibration message</string>
+    <string name="onErrorNotConnected">No sensors connected. Cannot proceed to calibration</string>
+
+
+</resources>

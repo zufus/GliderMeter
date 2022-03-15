@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GliderMeter" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/primaryTextColor</item>
+        <item name="android:colorSecondary">@color/secondaryColor</item>
+    </style>
+
+    <style name="Widget.GliderMeter.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?android:attr/colorPrimary</item>
+        <item name="android:theme">@style/Theme.GliderMeter</item>
+        <item name="titleTextAppearance">@style/TextAppearance.GliderMeter.Toolbar</item>
+    </style>
+
+    <style name="TextAppearance.GliderMeter.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">22sp</item>
+
+    </style>
+
+    <style name="Widget.GliderMeter.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="colorOnSurface">@color/secondaryLightColor</item>
+        <item name="colorSecondary">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="Widget.GliderMeter.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="backgroundTint">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="Widget.GliderMeter.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+
+    </style>
+
+
+</resources>
